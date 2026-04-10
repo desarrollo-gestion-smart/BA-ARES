@@ -117,7 +117,7 @@ export default function HomePage() {
         </h1>
         <div className="mt-3 flex items-center gap-4 opacity-55">
           <span className="h-px w-8 bg-linear-to-r from-transparent to-banares-ink" />
-          <p className="text-xs uppercase tracking-[0.35em]">Parfums</p>
+          <p className="text-xs uppercase tracking-[0.35em]">Perfumes</p>
           <span className="h-px w-8 bg-linear-to-r from-banares-ink to-transparent" />
         </div>
       </header>
@@ -216,9 +216,6 @@ export default function HomePage() {
                   <h3 className="text-[1.75rem]" style={{ fontFamily: "var(--font-editorial)" }}>
                     {activeProduct.name}
                   </h3>
-                  <p className="mt-1.5 leading-6 text-[rgba(17,17,17,0.72)]">
-                    {activeProduct.description}
-                  </p>
                 </div>
               </div>
             </div>
@@ -255,7 +252,7 @@ export default function HomePage() {
 
         <div className="flex flex-col items-center justify-between gap-4 px-6 pt-5 text-[0.7rem] uppercase tracking-[0.18em] text-banares-muted sm:flex-row">
           <span>{"\u00A92026 BA\u00D1ARES"}</span>
-          <span className="hidden text-center sm:inline">Explore the collection</span>
+          <span className="hidden text-center sm:inline">Explora la coleccion</span>
           <div className="inline-flex items-center gap-4">
             <button
               type="button"

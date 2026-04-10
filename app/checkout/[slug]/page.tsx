@@ -19,7 +19,7 @@ export default async function CheckoutPage({ params }: CheckoutPageProps) {
   return (
     <main className="grid min-h-screen place-items-center px-8 py-10">
       <div className="w-full max-w-3xl rounded-[2rem] border border-[rgba(17,17,17,0.08)] bg-[rgba(255,255,255,0.55)] p-8 shadow-[0_30px_80px_rgba(17,17,17,0.08)] backdrop-blur-sm md:p-12">
-        <p className="text-[0.72rem] uppercase tracking-[0.3em]">Checkout / {product.name}</p>
+        <p className="text-[0.72rem] uppercase tracking-[0.3em]">Compra / {product.name}</p>
         <h1
           className="mt-3 text-[clamp(2.8rem,8vw,4.8rem)] leading-[0.95]"
           style={{ fontFamily: "var(--font-editorial)" }}

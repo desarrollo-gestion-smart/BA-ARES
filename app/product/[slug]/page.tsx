@@ -20,7 +20,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
     <main className="grid min-h-screen place-items-center px-8 py-10">
       <div className="grid w-full max-w-[72rem] gap-[clamp(2rem,5vw,5rem)] md:grid-cols-2 md:items-center">
         <div>
-          <p className="text-[0.72rem] uppercase tracking-[0.3em]">{"BA\u00D1ARES / Parfums"}</p>
+          <p className="text-[0.72rem] uppercase tracking-[0.3em]">{"BA\u00D1ARES / Perfumes"}</p>
           <h1
             className="mt-1.5 mb-4 text-[clamp(3rem,10vw,5.5rem)] leading-[0.95]"
             style={{ fontFamily: "var(--font-editorial)" }}
@@ -52,7 +52,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
               Comprar
             </Link>
             <Link href="/" className="inline-block border-b border-current pb-1 text-[0.72rem] uppercase tracking-[0.3em]">
-              Back to collection
+              Volver a la coleccion
             </Link>
           </div>
         </div>
