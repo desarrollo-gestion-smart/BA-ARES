@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #f7f6f2;
+  --ink: #111111;
+  --line: rgba(17, 17, 17, 0.1);
+  --muted: rgba(17, 17, 17, 0.5);
+  --accent: #c6a16e;
+  --font-editorial: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  --font-sans: "Avenir Next", "Segoe UI", sans-serif;
+}
+
+@theme inline {
+  --color-banares-bg: var(--bg);
+  --color-banares-ink: var(--ink);
+  --color-banares-line: var(--line);
+  --color-banares-muted: var(--muted);
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+  }
+
+  img,
+  video {
+    display: block;
+    max-width: 100%;
+  }
+}
